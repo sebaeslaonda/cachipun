@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+    outline: none;
+}
+
+.conte{
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor{
+    width: 100%;
+    height: 80%;
+    background:#34495E;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.po{
+    font-size: 34px;
+}
+
+.fliw1{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 35px;
+    background:#1C2833;
+}
+
+.elec{
+    color:#D0D3D4;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.election{
+    width: 150px;
+    height: 150px;
+    background: #11794E;
+    display: flex;
+    border: solid 4px #000;
+}
+
+.election img{
+    margin: auto;
+}
+
+.randomelection{
+    width: 150px;
+    height: 150px;
+    background: #782413;
+    display: flex;
+    border: solid 4px #000;
+}
+
+.randomelection img{
+    margin: auto;
+}
+
+.fliw2{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fli2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.one,.two,.three{
+    background:#0CA22E;
+}
+.fli2 img{
+    margin: auto;
+    padding:6px;
+    border-radius:50%;
+    border:8px solid #000;
+    cursor: pointer;
+}
+
+.score{
+    width: 100%;
+    height: 20%;
+    background:#1d1f2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.you{
+    background: #11794E;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    border:5px solid #fff;
+}
+.he{
+    background: #791811;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    border:5px solid #fff;
+}
+
+.he p{
+    line-height: 60px;
+}
+.you p{
+    line-height: 60px;
+}
+
+.bacsd{
+    background:#0C52A2;
+}
+
+.titleSwal{
+    color:#fff;
+}
+
+
+
+@media (max-width:600px){
+    .po{
+        font-size: 27px;
+    }
+    h1{
+        font-size: 40px;
+        line-height:100px;
+    }
+    .election{
+        width: 120px;
+        height: 120px;
+    }
+    .randomelection{
+        width: 120px;
+        height: 120px;
+    }
+    .fli2 img{
+        width: 84px;
+        height: 84px;
+        border:4px solid #000;
+    }
+    .fli2{
+        width: 94%;
+    }
+}
+
+@media (max-width:400px){
+    .po{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 36px;
+        line-height:90px;
+    }
+    .election{
+        width: 100px;
+        height: 100px;
+    }
+    .randomelection{
+        width: 100px;
+        height: 100px;
+    }
+    .fli2 img{
+        width: 79px;
+        height: 79px;
+        border:4px solid #000;
+    }
+    .fli2{
+        width: 94%;
+    }
+}
+
+@media (max-height:640px) and (orientation:landscape){
+    .po{
+        font-size: 42px;
+    }
+    h1{
+        font-size: 46px;
+        line-height:90px;
+    }
+    .election{
+        width: 140px;
+        height: 140px;
+    }
+    .randomelection{
+        width: 140px;
+        height: 140px;
+    }
+    .fli2 img{
+        width: 105px;
+        height: 105px;
+        border:4px solid #000;
+    }
+    .fli2{
+        width: 94%;
+    }
+}
